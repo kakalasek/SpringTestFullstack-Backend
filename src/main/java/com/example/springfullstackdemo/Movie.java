@@ -23,6 +23,7 @@ public class Movie {
     private String releaseDate;
     private String trailerLink;
     private String poster;
+    private List<String> backdrops;
     private List<String> genres;
     @DocumentReference
     private List<Review> reviewIds;
